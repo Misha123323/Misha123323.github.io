@@ -1,0 +1,46 @@
+.best-seller .title{
+    text-align: center;
+}
+.best-seller-box-hot{
+    width: 63px;
+    height: 24px;
+    font-family: var(--font-inter);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: var(--dark-color);
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    line-height: 24px;
+}
+.best-seller-box-discount{
+    width: 71px;
+    height: 24px;
+    font-family: var(--font-inter);
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: var(--light-color);
+    background-color: #38CB89;
+    border-radius: 4px;
+    line-height: 24px;
+    margin-top: 8px;
+}
+.d-flex{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.best-seller-old-price{
+    font-family: var(--font-inter);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: line-through;
+    color: #6C7275;
+
+}
+.best-seller .wrap{
+    padding: 32px 0 48px;
+}

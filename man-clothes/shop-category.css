@@ -1,0 +1,65 @@
+.shop-category{
+    padding: 40px 0 ;
+}
+.shop-category .title{
+    text-align: center;
+}
+.shop-category-container{
+    display: flex;
+    margin-top: 48px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+.shop-category-box{
+    width: 152px;
+    height: 186px;
+}
+.shop-category-box-img{
+    width: 152px;
+    height: 152px;
+    background-size: cover;
+    border-radius: 50%;
+}
+.category-img-puffers{
+    background-image: url("./img/catgory-img-puffers.png");
+}
+.category-img-bombers{
+    background-image: url("./img/catgory-img-bombers.png");
+}
+.category-img-lightweight-jackets{
+    background-image: url("./img/catgory-img-Lightweight\ jackets.png");
+}
+.category-img-gilets{
+    background-image: url("./img/catgory-img-gilets.png");
+}
+.category-img-coats{
+    background-image: url("./img/catgory-img-coats.png");
+}
+.category-img-rainwear{
+    background-image: url("./img/catgory-img-rainwear.png");
+}  
+.shop-category-box-name{
+    color: #121212;
+    font-family:var(--font-inter);
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 12px;
+}
+@media(min-width: 625px){
+    .shop-category{
+    padding: 48px 0 ;
+}
+    .shop-category-container{
+    gap: 10px;
+}
+    .shop-category-box{
+        width: 167px;
+        height: 201px;
+    }
+    .shop-category-box-img{
+    width: 167px;
+    height: 167px;
+}
+}

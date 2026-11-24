@@ -1,0 +1,63 @@
+.icons{
+    padding: 32px 0;
+}
+.icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.icons-container-child{
+    width: fit-content;
+    display: flex;
+}
+.icons-box{
+    width: 152px;
+    padding: 32px 0 32px 16px;
+}
+.icons-box-img {
+    width: 48px;
+    height: 48px;
+}
+.icons-img1{
+    background-image: url("./img/icons-delivery.png")
+}
+.icons-img2{
+    background-image: url("./img/icons-img2.png")
+}
+.icons-img3{
+    background-image: url("./img/icons-img3.png")
+}
+.icons-img4{
+    background-image: url("./img/icons-img4.png")
+}
+.icons-box-title{
+    font-family: var(--font-inter);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #141718;
+    margin: 16px 0 4px;
+}
+.icons-box-text{
+    width: 120px;
+    font-family: var(--font-inter);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #6C7275;
+}
+
+@media(min-width: 625px){
+    .icons-box{
+        width: 262px;
+        padding: 48px 0 48px 32px;
+    }
+     .icons-box-title{
+        font-size: 20px;
+        line-height: 28px;
+        margin: 16px 0 8px;
+    }
+    .icons-box-text{
+        width: 198px;
+    }
+}

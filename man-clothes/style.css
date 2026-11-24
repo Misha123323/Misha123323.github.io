@@ -1,0 +1,66 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("./first-screen.css");
+@import url("./trending.css");
+@import url("./just-in.css");
+@import url("./shop-category.css");
+@import url("./baner.css");
+@import url("./best-seller.css");
+@import url("./new-price.css");
+@import url("./winter-collection.css");
+@import url("./article.css");
+@import url("./instagram.css");
+@import url("./icons.css");
+@import url("./footer.css");
+@IMPORT url("./copyright.css");
+:root{
+    --light-color: #FEFEFE; 
+    --dark-color: #121212; 
+    --font-inter: "Inter", sans-serif;
+    --Space-Grotesk: "Space Grotesk", sans-serif;
+    --font-Poppins: "Poppins", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.wrap{
+    max-width: 1120px;
+    margin: auto;
+    padding: 0 32px;
+}
+.d-flex{
+    display: flex;
+}
+.hide{
+    display: none;
+}
+.text-center{
+    text-align: center;
+}
+.title{
+    color: var(--dark-color);
+    font-family: var(--font-Poppins);
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 38px;
+}
+.marginb-32{
+    margin-bottom: 32px;
+}
+@media(min-width: 625px){
+    .title{
+        font-size: 40px;
+        line-height: 44px;
+    }
+}

@@ -1,0 +1,54 @@
+.winter-collection{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+}
+.winter-collection-promotion{
+    font-family: var(--font-inter);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #377DFF;
+    margin-bottom: 16px;
+}
+.winter-collection-title{
+    font-family: var(--font-Poppins);
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 38px;
+    text-align: center;
+    color: #141718;
+    margin-bottom: 16px;
+}
+.winter-collection-new-winter-jacket{
+    font-family: var(--font-inter);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #121212;
+    margin-bottom: 40px;
+}
+.winter-collection-img{
+    height: 375px;
+    background-image: url("./img/winter-collection.png");
+    border-radius: 16px;
+    background-size: cover;
+    object-fit: cover;
+}
+@media(min-width: 625px){
+    .winter-collection-title{
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .winter-collection-new-winter-jacket{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .winter-collection-img{
+        height: 100%;
+    
+    }
+}

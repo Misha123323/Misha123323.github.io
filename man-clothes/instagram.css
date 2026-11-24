@@ -1,0 +1,62 @@
+.instagram{
+    padding: 40px 0;
+}
+.instagram-newsfeed{
+    font-family: var(--font-inter);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #6C7275;
+    margin-bottom: 16px;
+}
+.instagram-text{
+    font-family: var(--font-inter);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #121212;
+    margin-top: 16px;
+}
+.instagram-email{
+    font-family: var(--font-Poppins);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #6C7275;
+    margin: 16px 0 40px;
+}
+.instagram-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+.instagram-img{
+    width: 312px;
+    height: 312px;
+    background-size: cover;
+}
+.winter-img{
+    background-image: url("./img/winter-img.png");
+}
+.autm-img{
+    background-image: url("./img/autm-img.png");
+}
+.spring-img{
+    background-image: url("./img/spring-img.png");
+}
+.summer-img{
+    background-image: url("./img/summer-img.png");
+}
+@media(min-width: 375px){
+    .instagram-text{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .instagram-img{
+        width: 252px;
+        height: 252px; 
+    }
+}    

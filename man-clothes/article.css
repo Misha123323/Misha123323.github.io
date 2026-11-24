@@ -1,0 +1,78 @@
+
+.article{
+    padding: 40px 0;
+}
+
+.title-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 40px;
+    padding: 0 16px;
+}
+.holiday-gifts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+.article .title{
+    width: 123px; 
+}
+.holiday-gifts-box-text{
+    margin: 16px 0 8px;
+}
+.article-link-text{
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #141718;
+    text-decoration: underline;
+}
+.holiday-gifts-box-img{
+    width: 311px;
+    height: 283px;
+    background-size: cover;
+}
+.holiday-gifts-box-text{
+    font-family: var(--font-inter);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #23262F;
+}
+.gift1{
+    background-image: url("./img/gift1.png");
+}
+.gift2{
+    background-image: url("./img/gift2.png");
+}
+.gift3{
+    background-image: url("./img/gift3.png");
+}
+@media(min-width: 625px){
+    .article{
+        padding: 80px 0;
+    }
+    .article .wrap{
+        padding: 0 ;
+    }
+    .title-container{
+        align-items: center;
+    }
+    .article .title{
+        width: fit-content;
+    } 
+    .holiday-gifts-box-text{
+    margin-top: 24px;
+}
+    .holiday-gifts-box-img{
+        width: 357px;
+        height: 325px;
+    }
+    .holiday-gifts-box-text{
+        font-size: 20px;
+        line-height: 28px;
+    }
+}

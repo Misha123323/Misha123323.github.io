@@ -1,0 +1,52 @@
+.Trending .wrap{
+    padding-top: 24px;
+}
+.trending-title{
+    font-family: var(--font-inter);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #6C7275;
+    text-align: center;
+}
+.trending-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.trending-box{
+    width: 120px;
+    height: 40px;
+    background-size: cover;
+}
+.logoimsum-img{
+    background-image: url("./img/logoimsum.png");
+}
+.logoimsum2-img{
+    background-image: url("./img/logoimsum2.png");
+}
+.logoimsum3-img{
+    background-image: url("./img/logoimsum3.png");
+}
+.logoimsum4-img{
+    background-image: url("./img/logoimsum4.png");
+}
+.logoimsum5-img{
+    background-image: url("./img/logoimsum5.png");
+}
+.logoimsum6-img{
+    background-image: url("./img/logoimsum.png");
+}
+@media(min-width: 625px){
+    .Trending .wrap{
+        padding-top: 40px;
+    }
+    .trending-title{
+    color: #141718;
+    }
+    .trending-box{
+    width: 167px;
+    height: 64px;
+
+}
+}

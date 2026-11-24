@@ -1,0 +1,120 @@
+
+.just-in .wrap{
+    padding: 32px 32px 48px;
+}
+.just-in-container{
+    display: flex;
+    margin-top: 40px;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.just-in-box{
+    width: 231px;
+    height: 412px;
+}
+.just-in-box:hover .box-img-like{
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+.just-in-box-img{
+    width: 100%;
+    height: 308px;
+    background-size: cover;
+    padding: 16px;
+}
+.just-img1{
+    background-image: url("./img/just-img1.png");
+}
+.just-img2{
+    background-image: url("./img/just-img2.png");
+}
+.just-img3{
+    background-image: url("./img/just-img3.png");
+}
+.just-img4{
+    background-image: url("./img/just-img4.png");
+}
+.just-img5{
+    background-image: url("./img/just-img5.png");
+}
+.just-img6{
+    background-image: url("./img/just-img6.png");
+}
+.just-img7{
+    background-image: url("./img/just-img7.png");
+}
+.just-img8{
+    background-image: url("./img/just-img8.png");
+}
+.box-img{
+    display: flex;
+    justify-content: space-between;
+}
+.box-img-new{
+    width: 67px;
+    height: 24px;
+    background-image: url("./img/new.png");
+}
+.box-img-like{
+    width: 32px;
+    height: 32px;
+    background-image: url("./img/like.png");
+    background-position: center top;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.just-in-btn{
+    width: 199px;
+    height: 41px;
+    background-color: #141718;
+    border-radius: 8px;
+    color: #FEFEFE;
+    font-family: var(--font-inter);
+    font-weight: 500;
+    margin-top: 210px;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.just-in-box:hover .just-in-btn{
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+.rating-stars{
+    word-spacing: -5px;
+    margin: 12px 0 4px;
+}
+.just-in-box-title{
+    color: #141718;
+    font-family: var(--font-inter);
+    font-weight: 600;
+    line-height: 26px;
+}
+.just-in-box-price{
+    color: var(--dark-color);
+    font-family: var(--font-inter);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 4px;
+}
+@media(min-width: 625px){
+    .just-in .wrap{
+        padding-top: 48px;
+    }
+    .just-in-container{
+    margin-top: 48px;
+}
+    .just-in-box{
+        width: 262px;
+        height: 459px;
+    }
+    .just-in-box-img{
+        height: 349px;
+    }
+    .just-in-btn{
+        width: 230px;
+        height: 46px;
+        margin-top: 247px;
+    }
+}

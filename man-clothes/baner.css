@@ -1,0 +1,67 @@
+.baner-list{
+    padding: 40px 0;
+}
+.baner-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;  
+    justify-content: center;
+}
+.baner-box{
+    width: 311px;
+    height: 377px;
+    background-size: cover;
+    padding: 279px 0px 0 32px;
+}
+.baner-november{
+    background-image: url("./img/november-outfits.png");
+}
+.baner-cashmere{
+    background-image: url("./img/cashmere-set.png");
+}
+.baner-nordic{
+    background-image: url("./img/the-new-nordic.png")
+}
+.baner-leather{
+    background-image: url("./img/the-leather.png")
+}
+.baner-box-title{
+    font-family: var(--font-Poppins);
+    font-weight: 500;
+    font-size: 28px;
+    color: #FEFEFE;
+}
+.baner-link {
+    display: flex;
+    text-decoration: underline;
+    color: #FEFEFE;
+    gap: 4px;
+}
+.baner-link-text{
+    font-family: var(--font-Inter);
+    font-weight: 500;
+    font-size: 14px;
+    color: #FEFEFE;
+}
+.baner-link-arrow{
+    background-image: url("./img/arrow-right.png");
+    width: 16px;
+    height: 16px;
+}
+
+@media(min-width: 625px){
+    .baner-list{
+        padding: 48px 0;
+    }
+    .baner-box{
+    width: 520px;
+    height: 664px;
+    padding: 548px 0 0 48px;
+}
+    .baner-box-title{
+    font-size: 34px;
+}
+    .baner-link-text{
+    font-size: 16px;
+}
+}
